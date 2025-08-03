@@ -17,7 +17,6 @@ packages=(
     obs-studio
     openrgb-git
     openrgb-plugin-effects-git
-    paru
     protonplus
     qastools
     simplenote
