@@ -6,7 +6,6 @@ if ! command -v paru &> /dev/null; then
     exit 1
 fi
 
-# Alphabetically sorted list of packages
 packages=(
     coolercontrol
     discord
@@ -41,4 +40,5 @@ packages=(
 echo "📦 Installing ${#packages[@]} packages with paru..."
 paru -S --needed --noconfirm "${packages[@]}"
 
+echo
 echo "✅ All done!"
